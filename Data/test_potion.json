@@ -1,0 +1,48 @@
+{
+  "0": {
+    "Felix Felicis": "Ashwinder Egg",
+    "Amortentia": "Ashwinder Egg",
+    "Ageing Potion": "Red Wine",
+    "Draught of Peace": "Powdered Moonstone",
+    "Wolfsbane Potion": "Wolfsbane",
+    "Invisibility Potion": "Cherries",
+    "Elixir of Life": "Sorcerer Stone",
+    "Wiggenweld Potion": "Wiggentree Bark",
+    "Herbicide Potion": "Flobberworm Mucus",
+    "Antidote to Common Poisons": "Bezoar"
+  },
+  "1": {
+    "Felix Felicis": "Squill Bulb",
+    "Amortentia": "Rose Thorns",
+    "Ageing Potion": "Prune Juice",
+    "Draught of Peace": "Unicorn Horn",
+    "Wiggenweld Potion": "Moly",
+    "Herbicide Potion": "Horklump Juice",
+    "Antidote to Common Poisons": "Unicorn Horn"
+  },
+  "2": {
+    "Felix Felicis": "Murtlap Tentacle",
+    "Amortentia": "Peppermint",
+    "Ageing Potion": "Tortoise Shell",
+    "Draught of Peace": "Porcupine Quills",
+    "Wiggenweld Potion": "Dittany",
+    "Herbicide Potion": "Lionfish Spines",
+    "Antidote to Common Poisons": "Mistletoe Berries"
+  },
+  "3": {
+    "Felix Felicis": "Tincture Thyme",
+    "Amortentia": "Powdered Moonstone",
+    "Ageing Potion": "Caterpillar",
+    "Wiggenweld Potion": "Horklump Juice"
+  },
+  "4": {
+    "Felix Felicis": "Occamy Eggshell",
+    "Amortentia": "Pearl Dust",
+    "Ageing Potion": "Bat Tongue",
+    "Wiggenweld Potion": "Flobberworm Mucus"
+  },
+  "5": {
+    "Felix Felicis": "Powdered Rue",
+    "Wiggenweld Potion": "Chizpurfle Fangs"
+  }
+}

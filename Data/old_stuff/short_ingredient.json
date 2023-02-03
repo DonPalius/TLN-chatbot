@@ -1,0 +1,11 @@
+[
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "NOUN" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient_Right",
+      "RIGHT_ATTRS": { "DEP": "compound" }
+    }
+  ]
+]

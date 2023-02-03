@@ -1,0 +1,68 @@
+[
+  [
+    { "RIGHT_ID": "verb", "RIGHT_ATTRS": { "POS": "VERB" } },
+    {
+      "LEFT_ID": "verb",
+      "REL_OP": ">",
+      "RIGHT_ID": "advmod",
+      "RIGHT_ATTRS": { "DEP": "advmod" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "verb", "RIGHT_ATTRS": { "POS": "VERB" } },
+    {
+      "LEFT_ID": "verb",
+      "REL_OP": ">",
+      "RIGHT_ID": "advmod",
+      "RIGHT_ATTRS": { "DEP": "advmod" }
+    },
+    {
+      "LEFT_ID": "verb",
+      "REL_OP": ">",
+      "RIGHT_ID": "obj",
+      "RIGHT_ATTRS": { "DEP": "obj" }
+    },
+    {
+      "LEFT_ID": "verb",
+      "REL_OP": ">",
+      "RIGHT_ID": "obl",
+      "RIGHT_ATTRS": { "DEP": "obl" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "NOUN" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "appos",
+      "RIGHT_ATTRS": { "DEP": "appos" }
+    },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "advmod",
+      "RIGHT_ATTRS": { "DEP": "advmod" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "NOUN" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "nsubj",
+      "RIGHT_ATTRS": { "DEP": "nsubj", "POS": "NOUN" }
+    },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "advmod",
+      "RIGHT_ATTRS": { "DEP": "advmod" }
+    },
+    {
+      "LEFT_ID": "advmod",
+      "REL_OP": ".",
+      "RIGHT_ID": "aux",
+      "RIGHT_ATTRS": { "DEP": "cop" }
+    }
+  ]
+]

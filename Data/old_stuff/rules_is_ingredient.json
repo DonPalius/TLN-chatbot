@@ -1,0 +1,41 @@
+[
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "NOUN" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "subj",
+      "RIGHT_ATTRS": { "DEP": "nsubj" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "verb", "RIGHT_ATTRS": { "POS": "VERB" } },
+    {
+      "LEFT_ID": "verb",
+      "REL_OP": ">",
+      "RIGHT_ID": "obl:agent",
+      "RIGHT_ATTRS": { "DEP": "obl:agent" }
+    }
+  ],
+  [
+    {
+      "RIGHT_ID": "ingredient",
+      "RIGHT_ATTRS": { "POS": "NOUN", "DEP": "conj" }
+    },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": "$--",
+      "RIGHT_ID": "subj",
+      "RIGHT_ATTRS": { "DEP": "nsubj" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "verb", "RIGHT_ATTRS": { "POS": "VERB" } },
+    {
+      "LEFT_ID": "verb",
+      "REL_OP": ">>",
+      "RIGHT_ID": "conj",
+      "RIGHT_ATTRS": { "DEP": "conj" }
+    }
+  ]
+]

@@ -1,0 +1,29 @@
+[
+  [
+    { "RIGHT_ID": "anchor_is", "RIGHT_ATTRS": { "ORTH": "is" } },
+    {
+      "LEFT_ID": "anchor_is",
+      "REL_OP": ">",
+      "RIGHT_ID": "is_subject",
+      "RIGHT_ATTRS": { "DEP": "nsubj" }
+    },
+    {
+      "LEFT_ID": "anchor_is",
+      "REL_OP": ">",
+      "RIGHT_ID": "is_attr",
+      "RIGHT_ATTRS": { "DEP": "attr" }
+    },
+    {
+      "LEFT_ID": "anchor_is",
+      "REL_OP": ">",
+      "RIGHT_ID": "is_neg",
+      "RIGHT_ATTRS": { "DEP": "neg" }
+    },
+    {
+      "LEFT_ID": "is_attr",
+      "REL_OP": ">",
+      "RIGHT_ID": "attr_compound",
+      "RIGHT_ATTRS": { "DEP": "compound" }
+    }
+  ]
+]

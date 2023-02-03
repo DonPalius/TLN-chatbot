@@ -1,0 +1,189 @@
+[
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "NOUN" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient_Right",
+      "RIGHT_ATTRS": { "DEP": "compound" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "VERB" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient_Right",
+      "RIGHT_ATTRS": { "DEP": "compound" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "PROPN" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient_Right",
+      "RIGHT_ATTRS": { "DEP": "compound" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "DEP": "attr" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient_Right",
+      "RIGHT_ATTRS": { "DEP": "amod" }
+    }
+  ],
+  [
+    {
+      "RIGHT_ID": "ingredient",
+      "RIGHT_ATTRS": { "POS": "ADV", "DEP": "attr" }
+    },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient_Right",
+      "RIGHT_ATTRS": { "DEP": "compound" }
+    }
+  ],
+  [
+    {
+      "RIGHT_ID": "ingredient",
+      "RIGHT_ATTRS": { "POS": "ADJ", "DEP": "attr" }
+    },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient_Right",
+      "RIGHT_ATTRS": { "DEP": "advmod" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "DEP": "acomp" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient_Right",
+      "RIGHT_ATTRS": { "DEP": "amod" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "DEP": "acomp" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient_Right",
+      "RIGHT_ATTRS": { "DEP": "advmod" }
+    }
+  ],
+  [
+    {
+      "RIGHT_ID": "ingredient",
+      "RIGHT_ATTRS": { "POS": "NOUN", "DEP": "nsubj" }
+    },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient_",
+      "RIGHT_ATTRS": { "DEP": "amod" }
+    }
+  ],
+  [
+    {
+      "RIGHT_ID": "ingredient",
+      "RIGHT_ATTRS": { "POS": "PROPN" }
+    },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient_",
+      "RIGHT_ATTRS": { "DEP": "amod" }
+    }
+  ],
+
+  [
+    {
+      "RIGHT_ID": "ingredient",
+      "RIGHT_ATTRS": { "POS": "NOUN", "DEP": "nsubj" }
+    },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient__",
+      "RIGHT_ATTRS": { "DEP": "compound", "POS": "ADJ" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "NOUN" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient__",
+      "RIGHT_ATTRS": { "DEP": "amod" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "ORTH": "squill" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ".",
+      "RIGHT_ID": "ingredient__",
+      "RIGHT_ATTRS": { "ORTH": "bulb" }
+    }
+  ],
+  [
+    {
+      "RIGHT_ID": "ingredient",
+      "RIGHT_ATTRS": { "POS": "NOUN", "DEP": "attr" }
+    }
+  ],
+  [
+    {
+      "RIGHT_ID": "ingredient",
+      "RIGHT_ATTRS": { "POS": "ADJ", "DEP": "acomp" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "ADJ", "DEP": "attr" } }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "VERB" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient__",
+      "RIGHT_ATTRS": { "DEP": "nsubj" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "VERB" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient__",
+      "RIGHT_ATTRS": { "DEP": "dobj" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "X" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient__",
+      "RIGHT_ATTRS": { "DEP": "amod" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "VERB" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "ingredient__",
+      "RIGHT_ATTRS": { "DEP": "advmod" }
+    }
+  ],
+  [{ "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "NOUN" } }],
+  [{ "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "PROPN" } }],
+  [{ "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "VERB" } }]
+]

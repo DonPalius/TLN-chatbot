@@ -1,0 +1,21 @@
+{
+  "0": {
+    "Amortentia": [1, "Moon Water"],
+    "Antidoto ai Veleni Comuni": ["1", "Bezoar"],
+    "Tonico per draghi": ["1", "Giant Toad warts"]
+  },
+  "1": {
+    "Amortentia": [1, "Ashwinder Eggs"],
+    "Antidoto ai Veleni Comuni": ["2", "unicorn horn"],
+    "Tonico per draghi": ["3", "Eagle owl feather"]
+  },
+  "2": {
+    "Amortentia": [1, "Rose Thorns"],
+    "Antidoto ai Veleni Comuni": ["2", "Standard Ingredient"],
+    "Tonico per draghi": ["3", "Peacock feathers"]
+  },
+  "3": {
+    "Amortentia": [1, "Powdered Moonstone"],
+    "Antidoto ai Veleni Comuni": ["1", "mistletoe berries"]
+  }
+}

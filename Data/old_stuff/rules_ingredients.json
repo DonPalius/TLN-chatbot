@@ -1,0 +1,45 @@
+[
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "POS": "NOUN" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "nmod",
+      "RIGHT_ATTRS": { "DEP": "nmod" }
+    },
+    {
+      "LEFT_ID": "nmod",
+      "REL_OP": ">",
+      "RIGHT_ID": "case",
+      "RIGHT_ATTRS": { "DEP": "case" }
+    }
+  ],
+  [{ "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "DEP": "conj" } }],
+  [
+    { "RIGHT_ID": "ingredient", "RIGHT_ATTRS": { "DEP": "conj" } },
+    {
+      "LEFT_ID": "ingredient",
+      "REL_OP": ">",
+      "RIGHT_ID": "nmod",
+      "RIGHT_ATTRS": { "DEP": "nmod" }
+    },
+    {
+      "LEFT_ID": "nmod",
+      "REL_OP": ">",
+      "RIGHT_ID": "case",
+      "RIGHT_ATTRS": { "DEP": "case" }
+    }
+  ],
+  [
+    {
+      "RIGHT_ID": "ingredient",
+      "RIGHT_ATTRS": { "POS": "NOUN", "DEP": "nsubj" }
+    }
+  ],
+  [
+    {
+      "RIGHT_ID": "ingredient",
+      "RIGHT_ATTRS": { "POS": "NOUN", "DEP": "ROOT" }
+    }
+  ]
+]

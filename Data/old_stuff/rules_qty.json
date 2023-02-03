@@ -1,0 +1,1 @@
+[[{"RIGHT_ID": "num", "RIGHT_ATTRS": {"POS": "NUM", "DEP": "nummod"}}, {"LEFT_ID": "num", "REL_OP": "<", "RIGHT_ID": "nummod", "RIGHT_ATTRS": {"POS": "NOUN"}}]]

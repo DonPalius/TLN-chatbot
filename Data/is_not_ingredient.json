@@ -1,0 +1,20 @@
+[
+  [
+    { "RIGHT_ID": "anchor_is", "RIGHT_ATTRS": { "ORTH": "is" } },
+    {
+      "LEFT_ID": "anchor_is",
+      "REL_OP": ">",
+      "RIGHT_ID": "is_neg",
+      "RIGHT_ATTRS": { "DEP": "neg" }
+    }
+  ],
+  [
+    { "RIGHT_ID": "anchor_is", "RIGHT_ATTRS": { "ORTH": "are" } },
+    {
+      "LEFT_ID": "anchor_is",
+      "REL_OP": ">",
+      "RIGHT_ID": "is_neg",
+      "RIGHT_ATTRS": { "DEP": "neg" }
+    }
+  ]
+]
